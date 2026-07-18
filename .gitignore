@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local temporary files
+temp/
+*.mp3
+
+# User spreadsheets / data sources
+~$*.xlsx
+databaseobat.xlsx
+
+# Streamlit config and cache
+.streamlit/

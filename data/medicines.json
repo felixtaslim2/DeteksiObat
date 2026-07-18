@@ -1,0 +1,565 @@
+[
+  {
+    "id": "sanmol",
+    "nama": "Sanmol",
+    "bahan_aktif": "Paracetamol",
+    "golongan": "Obat Bebas (Lingkaran Hijau)",
+    "kategori": "Obat Demam dan Pereda Nyeri (Analgetik-Antipiretik)",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan demam dan nyeri seperti sakit kepala atau sakit gigi.",
+      "siapa": "Dewasa dan anak-anak.",
+      "aturan_minum": {
+        "waktu": "Sebelum atau sesudah makan",
+        "petunjuk": "Telan tablet dengan air putih.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa",
+            "jumlah": "1 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak usia 6 sampai 12 tahun",
+            "jumlah": "setengah sampai 1 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Kerusakan fungsi hati (bila digunakan berlebihan)",
+        "Memar di kulit",
+        "Sakit perut bagian kanan atas",
+        "Urine berwarna gelap",
+        "Penyakit kuning"
+      ],
+      "pantangan_penting": [
+        "Hati-hati penggunaan pada penderita penyakit ginjal.",
+        "Jangan mengonsumsi minuman beralkohol selama pengobatan."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Sanmol, mengandung Paracetamol. Obat ini termasuk golongan obat bebas untuk meredakan demam dan nyeri seperti sakit kepala atau sakit gigi. Sanmol dapat diminum sebelum atau sesudah makan dengan bantuan segelas air. Untuk dewasa, dosisnya satu tablet, tiga sampai empat kali sehari. Untuk anak usia enam sampai dua belas tahun, dosisnya setengah sampai satu tablet, tiga sampai empat kali sehari. Peringatan penting, harap hati-hati jika memiliki penyakit ginjal. Jangan mengonsumsi minuman beralkohol selama menggunakan obat ini karena bisa merusak fungsi hati. Bila setelah dua hari demam tidak menurun atau setelah lima hari nyeri tidak menghilang, segera hubungi dokter."
+  },
+  {
+    "id": "nalgestan",
+    "nama": "Nalgestan",
+    "bahan_aktif": "Phenylpropanolamine HCl dan Chlorpheniramine Maleate",
+    "golongan": "Obat keras (tanpa perlu resep dokter)",
+    "kategori": "Obat Flu dan Pilek",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan gejala flu dan pilek seperti hidung tersumbat dan bersin-bersin.",
+      "siapa": "Khusus Dewasa.",
+      "aturan_minum": {
+        "waktu": "Sebelum atau sesudah makan",
+        "petunjuk": "Telan tablet dengan air putih.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa",
+            "jumlah": "1 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mengantuk",
+        "Mulut kering",
+        "Gangguan pencernaan",
+        "Jantung berdebar",
+        "Susah buang air kecil"
+      ],
+      "pantangan_penting": [
+        "DILARANG KERAS langsung mengemudikan kendaraan atau mengoperasikan mesin karena efek kantuk yang kuat!",
+        "Jangan minum alkohol."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Nalgestan, obat flu dan pilek untuk meredakan hidung tersumbat dan bersin-bersin. Peringatan sangat penting, obat ini menyebabkan efek kantuk yang kuat, sehingga dilarang keras langsung mengemudikan kendaraan atau mengoperasikan mesin setelah minum obat ini! Nalgestan dikonsumsi oleh dewasa dengan dosis satu tablet, tiga sampai empat kali sehari, boleh sebelum atau sesudah makan. Efek samping yang mungkin muncul adalah mengantuk, mulut kering, atau jantung berdebar. Harap hati-hati jika Anda memiliki gangguan fungsi hati, ginjal, atau glaukoma. Jangan mengonsumsi minuman beralkohol selama pengobatan."
+  },
+  {
+    "id": "alpara",
+    "nama": "Alpara",
+    "bahan_aktif": "Paracetamol, Phenylpropanolamine HCl, Chlorpheniramine Maleate, dan Dextromethorphan HBr",
+    "golongan": "Obat keras (tanpa perlu resep dokter)",
+    "kategori": "Obat Flu dan Pilek",
+    "ringkasan_layar": {
+      "manfaat": "Meringankan gejala flu yang disertai batuk kering.",
+      "siapa": "Dewasa dan anak usia lebih dari atau sama dengan 6 tahun.",
+      "aturan_minum": {
+        "waktu": "Setelah makan",
+        "petunjuk": "Wajib dikonsumsi setelah makan untuk mencegah gangguan pencernaan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan anak di atas 12 tahun",
+            "jumlah": "1 kaplet",
+            "frekuensi": "3 kali sehari"
+          },
+          {
+            "kelompok": "Anak usia 6 sampai 12 tahun",
+            "jumlah": "setengah kaplet",
+            "frekuensi": "3 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mengantuk",
+        "Mulut dan tenggorokan kering",
+        "Sakit maag",
+        "Mual",
+        "Sembelit"
+      ],
+      "pantangan_penting": [
+        "DILARANG KERAS langsung mengemudikan kendaraan atau mengoperasikan mesin karena efek kantuk yang kuat!",
+        "Jangan minum alkohol."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Alpara, digunakan untuk meringankan gejala flu yang disertai batuk kering. Perhatian utama, obat ini menyebabkan efek kantuk yang kuat, sehingga Anda dilarang keras langsung mengemudikan kendaraan atau mengoperasikan mesin setelah meminumnya. Konsumsilah Alpara setelah makan untuk mencegah gangguan pencernaan. Untuk dewasa dan anak di atas dua belas tahun, dosisnya satu kaplet, tiga kali sehari. Untuk anak usia enam sampai dua belas tahun, dosisnya setengah kaplet, tiga kali sehari. Segera hentikan pemakaian jika muncul gejala susah tidur, jantung berdebar, atau pusing. Jangan mengonsumsi minuman beralkohol selama pengobatan karena dapat merusak fungsi hati."
+  },
+  {
+    "id": "mixagrip_flu",
+    "nama": "Mixagrip Flu",
+    "bahan_aktif": "Paracetamol, Phenylephrine HCl, Chlorpheniramine Maleate",
+    "golongan": "Obat keras (tanpa perlu resep dokter)",
+    "kategori": "Obat Flu dan Pilek",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan gejala flu seperti demam, sakit kepala, hidung tersumbat, dan bersin-bersin.",
+      "siapa": "Dewasa dan anak-anak usia 6 sampai 12 tahun.",
+      "aturan_minum": {
+        "waktu": "Sebelum atau sesudah makan",
+        "petunjuk": "Bisa dihentikan jika gejala sudah membaik.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa",
+            "jumlah": "1 kaplet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak usia 6 sampai 12 tahun",
+            "jumlah": "setengah kaplet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mengantuk",
+        "Gangguan pencernaan",
+        "Mulut kering",
+        "Susah tidur",
+        "Gelisah",
+        "Gemetar"
+      ],
+      "pantangan_penting": [
+        "DILARANG KERAS langsung mengemudikan kendaraan atau mengoperasikan mesin karena efek kantuk yang kuat!",
+        "Jangan gunakan lebih dari 3 hari berturut-turut."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Mixagrip Flu, untuk meredakan gejala flu seperti demam, sakit kepala, hidung tersumbat, dan bersin-bersin. Peringatan keras, obat ini menyebabkan kantuk kuat, jadi dilarang keras langsung mengemudikan kendaraan atau mengoperasikan mesin setelah meminumnya. Jangan gunakan obat ini lebih dari tiga hari berturut-turut. Untuk dewasa, dosisnya satu kaplet, tiga sampai empat kali sehari. Untuk anak usia enam sampai dua belas tahun, dosisnya setengah kaplet, tiga sampai empat kali sehari. Penggunaan dapat dihentikan jika gejala sudah membaik. Jangan minum minuman beralkohol selama pengobatan karena berisiko merusak fungsi hati."
+  },
+  {
+    "id": "polysilane",
+    "nama": "Polysilane",
+    "bahan_aktif": "Simethicone, Aluminium Hidroksida, Magnesium Hidroksida",
+    "golongan": "Obat Bebas (Lingkaran Hijau)",
+    "kategori": "Obat Maag (Antasida)",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan sakit maag dan perut kembung.",
+      "siapa": "Dewasa dan anak-anak.",
+      "aturan_minum": {
+        "waktu": "1 sampai 2 jam sebelum atau setelah makan, dan sebelum tidur malam",
+        "petunjuk": "Wajib dikunyah dahulu sebelum ditelan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan anak di atas 12 tahun",
+            "jumlah": "1 sampai 2 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak 6 sampai 12 tahun",
+            "jumlah": "setengah sampai 1 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Sembelit",
+        "Diare",
+        "Mual",
+        "Muntah"
+      ],
+      "pantangan_penting": [
+        "Tidak dianjurkan digunakan terus-menerus lebih dari 2 minggu.",
+        "Jangan mengonsumsi minuman beralkohol."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Polysilane, obat maag dan perut kembung. Aturan penting, tablet ini harus dikunyah dahulu sebelum ditelan. Obat ini dikonsumsi satu sampai dua jam sebelum atau setelah makan, dan menjelang tidur malam. Untuk dewasa dan anak di atas dua belas tahun, dosisnya satu sampai dua tablet, tiga sampai empat kali sehari. Untuk anak usia enam sampai dua belas tahun, dosisnya setengah sampai satu tablet, tiga sampai empat kali sehari. Jangan gunakan obat ini terus-menerus lebih dari dua minggu kecuali atas petunjuk dokter. Jauhkan obat ini dari jangkauan anak-anak dan jangan minum alkohol selama pengobatan."
+  },
+  {
+    "id": "vitamin_b_complex",
+    "nama": "Vitamin B Complex",
+    "bahan_aktif": "Gabungan 8 jenis vitamin B",
+    "golongan": "Obat Bebas / Suplemen",
+    "kategori": "Vitamin/Suplemen",
+    "ringkasan_layar": {
+      "manfaat": "Mencegah dan mengatasi kekurangan vitamin B.",
+      "siapa": "Dewasa dan anak-anak.",
+      "aturan_minum": {
+        "waktu": "Setelah makan",
+        "petunjuk": "Telan tablet dengan air putih setelah makan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan anak usia di atas 12 tahun",
+            "jumlah": "1 tablet",
+            "frekuensi": "1 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mual (pada dosis tinggi jangka panjang)",
+        "Diare (pada dosis tinggi jangka panjang)",
+        "Urine berwarna lebih kuning cerah (pada dosis tinggi jangka panjang)"
+      ],
+      "pantangan_penting": [
+        "Jangan digunakan jika Anda memiliki riwayat alergi terhadap kandungan suplemen ini."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah Vitamin B Kompleks, suplemen untuk mencegah dan mengatasi kekurangan vitamin B. Cara penggunaannya, telan tablet dengan air putih setelah makan. Dosis untuk dewasa dan anak di atas dua belas tahun adalah satu tablet per hari. Suplemen ini umumnya sangat aman dan jarang menimbulkan efek samping jika digunakan sesuai aturan pakai. Namun, jangan gunakan suplemen ini jika Anda memiliki riwayat alergi terhadap kandungannya. Bila Anda ragu, berkonsultasilah ke dokter terlebih dahulu."
+  },
+  {
+    "id": "promag",
+    "nama": "Promag",
+    "bahan_aktif": "Hydrotalcite, Magnesium Hidroksida, Simethicone",
+    "golongan": "Obat Bebas (Lingkaran Hijau)",
+    "kategori": "Obat Maag (Antasida)",
+    "ringkasan_layar": {
+      "manfaat": "Mengatasi sakit maag, lambung perih, dan perut kembung.",
+      "siapa": "Dewasa dan anak usia lebih dari atau sama dengan 6 tahun.",
+      "aturan_minum": {
+        "waktu": "Saat gejala maag timbul atau 1 sampai 2 jam sebelum atau sesudah makan dan menjelang tidur",
+        "petunjuk": "Wajib dikunyah dahulu sebelum ditelan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa",
+            "jumlah": "1 sampai 2 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak 6 sampai 12 tahun",
+            "jumlah": "setengah sampai 1 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Sembelit",
+        "Diare",
+        "Mual",
+        "Muntah"
+      ],
+      "pantangan_penting": [
+        "Jangan minum alkohol selama pengobatan karena dapat memperparah iritasi lambung."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Promag, digunakan untuk mengatasi sakit maag, lambung perih, dan perut kembung. Ingat, tablet ini harus dikunyah dahulu sebelum ditelan. Promag dikonsumsi saat gejala maag timbul, atau satu sampai dua jam sebelum atau sesudah makan, serta menjelang tidur. Untuk dewasa, dosisnya satu sampai dua tablet kunyah, tiga sampai empat kali sehari. Untuk anak usia enam sampai dua belas tahun, dosisnya setengah sampai satu tablet kunyah, tiga sampai empat kali sehari. Jangan minum minuman beralkohol selama pengobatan karena bisa memperparah iritasi lambung Anda. Jika gejala tidak membaik setelah dua minggu, segera konsultasikan ke dokter."
+  },
+  {
+    "id": "mylanta",
+    "nama": "Mylanta",
+    "bahan_aktif": "Simethicone, Aluminium Hidroksida, Magnesium Hidroksida",
+    "golongan": "Obat Bebas (Lingkaran Hijau)",
+    "kategori": "Obat Maag (Antasida)",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan gejala sakit maag akibat asam lambung berlebih.",
+      "siapa": "Dewasa dan anak-anak usia 6 tahun ke atas.",
+      "aturan_minum": {
+        "waktu": "1 jam sebelum makan atau 2 jam setelah makan dan menjelang tidur",
+        "petunjuk": "Wajib dikunyah dahulu sebelum ditelan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa",
+            "jumlah": "1 sampai 2 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak 6 sampai 12 tahun",
+            "jumlah": "setengah sampai 1 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Sembelit",
+        "Diare",
+        "Mual",
+        "Muntah",
+        "Sensasi terbakar di mulut"
+      ],
+      "pantangan_penting": [
+        "Tidak dianjurkan digunakan terus-menerus lebih dari 2 minggu.",
+        "Jangan dikonsumsi bersama obat lain tanpa jeda waktu 1 sampai 2 jam.",
+        "Jangan minum alkohol."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Mylanta, untuk meredakan gejala sakit maag akibat asam lambung berlebih. Aturan pakainya, sebaiknya tablet dikunyah dahulu. Diminum satu jam sebelum makan atau dua jam setelah makan dan menjelang tidur. Dosis dewasa adalah satu sampai dua tablet, tiga sampai empat kali sehari. Untuk anak usia enam sampai dua belas tahun, dosisnya setengah sampai satu tablet, tiga sampai empat kali sehari. Peringatan, jangan gunakan obat ini terus-menerus lebih dari dua minggu. Berikan jeda satu sampai dua jam jika sedang meminum obat lain, dan jangan mengonsumsi minuman beralkohol selama pengobatan."
+  },
+  {
+    "id": "proris",
+    "nama": "Proris",
+    "bahan_aktif": "Ibuprofen",
+    "golongan": "Obat keras (tanpa perlu resep dokter)",
+    "kategori": "Obat Demam dan Pereda Nyeri (Analgetik-Antipiretik)",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan nyeri dan menurunkan demam.",
+      "siapa": "Anak usia lebih dari atau sama dengan 1 tahun hingga dewasa.",
+      "aturan_minum": {
+        "waktu": "Setelah makan",
+        "petunjuk": "WAJIB diminum setelah makan untuk melindungi dinding lambung!",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan anak usia di atas atau sama dengan 8 tahun",
+            "jumlah": "1 kaplet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak 3 sampai 7 tahun",
+            "jumlah": "setengah kaplet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak 1 sampai 2 tahun",
+            "jumlah": "seperempat kaplet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mual",
+        "Muntah",
+        "Diare",
+        "Sembelit",
+        "Nyeri lambung",
+        "Perut kembung",
+        "Pusing",
+        "Kantuk ringan"
+      ],
+      "pantangan_penting": [
+        "Jangan gunakan jika alergi terhadap ibuprofen.",
+        "Jangan mengonsumsi minuman beralkohol karena meningkatkan risiko perdarahan lambung."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Proris, yang mengandung Ibuprofen untuk meredakan nyeri dan menurunkan demam. Peringatan sangat penting, obat ini wajib diminum setelah makan untuk melindungi dinding lambung Anda dari iritasi. Untuk dewasa and anak usia delapan tahun ke atas, dosisnya satu kaplet, tiga sampai empat kali sehari. Untuk anak usia tiga sampai tujuh tahun, dosisnya setengah kaplet, tiga sampai empat kali sehari. Dan untuk anak usia satu sampai dua tahun, dosisnya seperempat kaplet, tiga sampai empat kali sehari. Jangan minum minuman beralkohol selama menggunakan obat ini karena bisa meningkatkan risiko luka atau perdarahan pada saluran cerna."
+  },
+  {
+    "id": "vitacimin_c",
+    "nama": "Vitacimin",
+    "bahan_aktif": "Vitamin C (Asam Askorbat)",
+    "golongan": "Obat Bebas / Suplemen",
+    "kategori": "Vitamin/Suplemen",
+    "ringkasan_layar": {
+      "manfaat": "Menjaga kesehatan dan membantu memenuhi kebutuhan vitamin C.",
+      "siapa": "Dewasa dan anak usia di atas 2 tahun.",
+      "aturan_minum": {
+        "waktu": "Bisa setelah makan",
+        "petunjuk": "Tablet dihisap hingga larut di dalam mulut. Dianjurkan banyak minum air putih.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan Anak",
+            "jumlah": "1 sampai 2 tablet",
+            "frekuensi": "sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Diare (jika berlebihan)",
+        "Mual (jika berlebihan)",
+        "Sakit kepala (jika berlebihan)",
+        "Kram perut (jika berlebihan)"
+      ],
+      "pantangan_penting": [
+        "Hati-hati penggunaan pada penderita yang memiliki riwayat batu ginjal."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah Vitacimin, suplemen Vitamin C untuk menjaga kesehatan tubuh. Cara mengonsumsinya adalah dihisap di dalam mulut hingga larut seluruhnya, bisa dilakukan setelah makan. Dosis umumnya adalah satu sampai dua tablet sehari. Selama mengonsumsi suplemen ini, Anda dianjurkan untuk banyak minum air putih. Bagi penderita yang memiliki riwayat batu ginjal, harap berhati-hati dalam menggunakan obat ini. Ingatlah bahwa suplemen tidak dapat menggantikan asupan nutrisi dari makanan utama bergizi seimbang."
+  },
+  {
+    "id": "cetirizine",
+    "nama": "Cetirizine",
+    "bahan_aktif": "Cetirizine Hydrochloride",
+    "golongan": "Obat keras (Perlu resep dokter)",
+    "kategori": "Obat Alergi (Antihistamin)",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan gejala alergi seperti gatal-gatal, bersin, dan biduran.",
+      "siapa": "Dewasa dan anak usia lebih dari atau sama dengan 2 tahun.",
+      "aturan_minum": {
+        "waktu": "Sebelum atau sesudah makan",
+        "petunjuk": "Dapat dikonsumsi sebelum atau sesudah makan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan anak di atas 12 tahun",
+            "jumlah": "1 tablet",
+            "frekuensi": "sekali sehari"
+          },
+          {
+            "kelompok": "Penderita gangguan ginjal",
+            "jumlah": "setengah tablet",
+            "frekuensi": "sekali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Sakit kepala",
+        "Pusing",
+        "Rasa kantuk ringan",
+        "Mulut kering",
+        "Rasa tidak enak pada lambung"
+      ],
+      "pantangan_penting": [
+        "DILARANG KERAS langsung mengemudikan kendaraan atau mengoperasikan mesin karena efek kantuk!",
+        "Hindari untuk wanita hamil atau menyusui."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Cetirizine, obat keras yang memerlukan resep dokter untuk meredakan gejala alergi. Peringatan keras, dilarang langsung mengemudikan kendaraan atau mengoperasikan mesin setelah minum obat ini karena adanya efek kantuk. Cetirizine dapat dikonsumsi sebelum atau sesudah makan. Untuk dewasa dan anak di atas dua belas tahun, dosisnya cukup satu tablet, sekali sehari. Khusus untuk penderita kelainan fungsi ginjal, dosisnya harus disesuaikan menjadi setengah dari dosis biasa. Hindari penggunaan obat ini pada wanita hamil atau menyusui, dan jangan mengonsumsi minuman beralkohol."
+  },
+  {
+    "id": "loratadine",
+    "nama": "Loratadine",
+    "bahan_aktif": "Loratadine",
+    "golongan": "Obat keras (Perlu resep dokter)",
+    "kategori": "Obat Alergi (Antihistamin)",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan gejala alergi dengan efek kantuk yang sangat minimal.",
+      "siapa": "Dewasa dan anak usia lebih dari atau sama dengan 2 tahun.",
+      "aturan_minum": {
+        "waktu": "Sebelum atau sesudah makan",
+        "petunjuk": "Dapat dikonsumsi sebelum atau sesudah makan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan anak di atas 12 tahun",
+            "jumlah": "10 mg atau 5 mg",
+            "frekuensi": "1 kali sehari (10 mg) atau 2 kali sehari (5 mg)"
+          },
+          {
+            "kelompok": "Anak 2 sampai 12 tahun (berat di atas 30 kg)",
+            "jumlah": "10 mg",
+            "frekuensi": "1 kali sehari"
+          },
+          {
+            "kelompok": "Anak 2 sampai 12 tahun (berat di bawah 30 kg)",
+            "jumlah": "5 mg",
+            "frekuensi": "1 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Sakit kepala",
+        "Lelah",
+        "Mulut kering",
+        "Sakit perut"
+      ],
+      "pantangan_penting": [
+        "Hati-hati pada penderita gangguan fungsi hati dan ginjal berat.",
+        "Pastikan tubuh fit sebelum beraktivitas.",
+        "Jangan minum alkohol."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Loratadine, obat keras dengan resep dokter untuk meredakan gejala alergi. Keunggulan obat ini adalah jarang menyebabkan kantuk jika dibandingkan obat alergi lainnya, namun Anda tetap harus memastikan kondisi benar-benar fit sebelum beraktivitas tinggi atau mengemudi. Loratadine dapat diminum sebelum atau sesudah makan. Untuk dewasa, dosisnya sepuluh miligram, satu kali sehari. Penggunaan pada penderita gangguan hati atau ginjal berat harus dilakukan dengan sangat hati-hati. Jangan mengonsumsi minuman beralkohol selama masa pengobatan."
+  },
+  {
+    "id": "ctm",
+    "nama": "CTM",
+    "bahan_aktif": "Chlorpheniramine Maleate",
+    "golongan": "Obat keras (tanpa perlu resep dokter)",
+    "kategori": "Obat Alergi (Antihistamin)",
+    "ringkasan_layar": {
+      "manfaat": "Meredakan gejala alergi, gatal-gatal, biduran, atau batuk pilek.",
+      "siapa": "Dewasa dan anak-anak usia 6 sampai 12 tahun.",
+      "aturan_minum": {
+        "waktu": "Sebelum atau sesudah makan",
+        "petunjuk": "Dikonsumsi sebelum atau sesudah makan dengan air putih.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa",
+            "jumlah": "1 tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          },
+          {
+            "kelompok": "Anak usia 6 sampai 12 tahun",
+            "jumlah": "setengah tablet",
+            "frekuensi": "3 sampai 4 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mengantuk berat",
+        "Lelah",
+        "Pusing",
+        "Pandangan kabur",
+        "Mulut kering",
+        "Sakit perut"
+      ],
+      "pantangan_penting": [
+        "DILARANG KERAS langsung mengemudikan kendaraan atau mengoperasikan mesin karena efek kantuk yang SANGAT KUAT!",
+        "Jangan minum alkohol."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat C T M, digunakan untuk meredakan gejala alergi and gatal-gatal. Peringatan yang sangat penting, obat ini menyebabkan efek kantuk yang sangat kuat, sehingga dilarang keras langsung mengemudikan kendaraan atau mengoperasikan mesin setelah meminumnya! C T M dikonsumsi sebelum atau sesudah makan. Dosis untuk dewasa adalah satu tablet, tiga sampai empat kali sehari. Untuk anak usia enam sampai dua belas tahun, dosisnya setengah tablet, tiga sampai empat kali sehari. Jangan minum minuman beralkohol selama pengobatan karena bisa meningkatkan risiko efek samping yang berbahaya."
+  },
+  {
+    "id": "paramex",
+    "nama": "Paramex",
+    "bahan_aktif": "Paracetamol, Propyphenazone, Kafein, dan Dexchlorpheniramine Maleate",
+    "golongan": "Obat keras (tanpa perlu resep dokter)",
+    "kategori": "Obat Demam dan Pereda Nyeri (Analgetik-Antipiretik)",
+    "ringkasan_layar": {
+      "manfaat": "Meringankan sakit kepala, sakit gigi, dan menurunkan demam.",
+      "siapa": "Dewasa dan anak usia lebih dari atau sama dengan 12 tahun.",
+      "aturan_minum": {
+        "waktu": "Setelah makan",
+        "petunjuk": "Sangat dianjurkan dikonsumsi setelah makan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa dan anak di atas 12 tahun",
+            "jumlah": "1 tablet",
+            "frekuensi": "2 sampai 3 kali sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mengantuk",
+        "Jantung berdebar (karena efek kafein)"
+      ],
+      "pantangan_penting": [
+        "DILARANG KERAS langsung mengemudikan kendaraan atau mengoperasikan mesin karena efek kantuk!",
+        "Hanya untuk penggunaan jangka pendek."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah obat Paramex, untuk meringankan sakit kepala, sakit gigi, dan menurunkan demam. Perhatian penting, obat ini mengandung kafein yang bisa memicu jantung berdebar, dan juga menyebabkan kantuk, sehingga Anda dilarang keras langsung mengemudikan kendaraan setelah meminumnya. Paramex sebaiknya dikonsumsi setelah makan. Dosisnya adalah satu tablet, dua sampai tiga kali sehari. Obat ini hanya untuk penggunaan jangka pendek, jangan melebihi dosis yang dianjurkan. Jangan mengonsumsi minuman beralkohol selama menggunakan obat ini karena berisiko merusak fungsi hati."
+  },
+  {
+    "id": "natur-e",
+    "nama": "Natur-E",
+    "bahan_aktif": "Vitamin E",
+    "golongan": "Obat Bebas / Suplemen",
+    "kategori": "Vitamin/Suplemen",
+    "ringkasan_layar": {
+      "manfaat": "Menjaga kesehatan kelembapan kulit.",
+      "siapa": "Khusus Dewasa.",
+      "aturan_minum": {
+        "waktu": "Bersamaan atau segera setelah makan",
+        "petunjuk": "Wajib dikonsumsi bersamaan atau segera setelah makan.",
+        "dosis": [
+          {
+            "kelompok": "Dewasa",
+            "jumlah": "1 kapsul",
+            "frekuensi": "sehari"
+          }
+        ]
+      },
+      "efek_samping_utama": [
+        "Mual",
+        "Sakit kepala",
+        "Lelah (jika berlebihan)"
+      ],
+      "pantangan_penting": [
+        "Dilarang bagi penderita yang memiliki riwayat alergi vitamin E.",
+        "Hati-hati jika ada gangguan pembekuan darah."
+      ]
+    },
+    "teks_suara_tts": "Ini adalah Natur E, suplemen Vitamin E untuk menjaga kesehatan kulit. Aturan pakainya, konsumsilah satu kapsul per hari, dan sebaiknya diminum bersamaan atau segera setelah makan. Suplemen ini sangat aman dan jarang menimbulkan efek samping pada penggunaan normal. Namun, dilarang mengonsumsi obat ini jika Anda memiliki riwayat alergi terhadap vitamin E. Harap berhati-hati jika Anda memiliki riwayat gangguan pembekuan darah atau penyakit ginjal kronis. Jauhkan suplemen ini dari jangkauan anak-anak."
+  }
+]
