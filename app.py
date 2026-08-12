@@ -95,18 +95,46 @@ st.markdown(
         .card-blue {
             background-color: #1e293b;
             border-color: #334155;
+            color: #F8FAFC !important;
+        }
+        .card-blue p, .card-blue span, .card-blue li, .card-blue label, .card-blue b, .card-blue div {
+            color: #F8FAFC !important;
+        }
+        .card-blue .card-title {
+            color: #FFFFFF !important;
         }
         .card-green {
             background-color: #064e3b;
             border-color: #047857;
+            color: #F8FAFC !important;
+        }
+        .card-green p, .card-green span, .card-green li, .card-green label, .card-green b, .card-green div {
+            color: #F8FAFC !important;
+        }
+        .card-green .card-title {
+            color: #FFFFFF !important;
         }
         .card-yellow {
             background-color: #78350f;
             border-color: #b45309;
+            color: #F8FAFC !important;
+        }
+        .card-yellow p, .card-yellow span, .card-yellow li, .card-yellow label, .card-yellow b, .card-yellow div {
+            color: #F8FAFC !important;
+        }
+        .card-yellow .card-title {
+            color: #FFFFFF !important;
         }
         .card-red {
             background-color: #7f1d1d;
             border-color: #b91c1c;
+            color: #F8FAFC !important;
+        }
+        .card-red p, .card-red span, .card-red li, .card-red label, .card-red b, .card-red div {
+            color: #F8FAFC !important;
+        }
+        .card-red .card-title {
+            color: #FFFFFF !important;
         }
     }
     </style>
