@@ -79,6 +79,18 @@ st.markdown(
         margin-bottom: 12px;
         color: #2F3747;
     }
+    .detected-medicine-name {
+        font-size: 36px !important;
+        font-weight: 800 !important;
+        line-height: 1.2 !important;
+        margin-bottom: 6px !important;
+        color: #27AE60 !important;
+    }
+    @media (max-width: 600px) {
+        .detected-medicine-name {
+            font-size: 30px !important;
+        }
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -311,7 +323,7 @@ def main() -> None:
         return
 
     st.markdown(
-        f"<h3 style='color: #27AE60; margin-bottom: 0px;'>{med_info['nama']}</h3>",
+        f'<div class="detected-medicine-name">{med_info["nama"]}</div>',
         unsafe_allow_html=True,
     )
     st.caption(f"Akurasi deteksi: {int(confidence * 100)}%")
