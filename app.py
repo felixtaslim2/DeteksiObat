@@ -19,6 +19,7 @@ st.markdown(
     <style>
     html, body, p, span, li, label {
         font-size: 20px !important;
+        line-height: 1.5 !important;
         color: var(--text-color);
     }
     div.stButton > button {
@@ -74,12 +75,12 @@ st.markdown(
         margin-bottom: 12px;
     }
     .card-title {
-        font-size: 20px !important;
-        font-weight: bold !important;
+        font-size: 26px !important;
+        font-weight: 700 !important;
         margin-bottom: 12px;
         color: var(--text-color);
     }
-    .detection-title {
+    .section-title {
         font-size: 34px !important;
         font-weight: 800 !important;
         line-height: 1.2 !important;
@@ -95,11 +96,14 @@ st.markdown(
         color: #27AE60 !important;
     }
     @media (max-width: 600px) {
-        .detection-title {
+        .section-title {
             font-size: 28px !important;
         }
         .detected-medicine-name {
             font-size: 26px !important;
+        }
+        .card-title {
+            font-size: 24px !important;
         }
     }
     @media (prefers-color-scheme: dark) {
@@ -348,7 +352,7 @@ def main() -> None:
         return
 
     st.divider()
-    st.markdown('<div class="detection-title">Hasil Deteksi</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">Hasil Deteksi</div>', unsafe_allow_html=True)
     left_col, center_col, right_col = st.columns([1, 4, 1])
     with center_col:
         st.image(
@@ -386,7 +390,7 @@ def main() -> None:
             st.error("Gagal memutar suara. Pastikan koneksi internet aktif.")
 
     st.divider()
-    st.subheader("Informasi Obat")
+    st.markdown('<div class="section-title">Informasi Obat</div>', unsafe_allow_html=True)
     display_medicine_info(med_info)
 
 
