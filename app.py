@@ -238,7 +238,7 @@ def main() -> None:
         st.markdown(
             """
             <div class="app-header">
-                <div class="app-header-title">💊 Identifikasi Obat</div>
+                <div class="app-header-title">💊 MediScan</div>
                 <div class="app-header-subtitle">Kenali obat dan lihat informasi penggunaannya dengan mudah.</div>
             </div>
             """,
