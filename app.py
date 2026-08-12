@@ -364,7 +364,7 @@ def main() -> None:
     if confidence < CONFIDENCE_THRESHOLD:
         st.warning(
             f"Obat tidak dapat dikenali dengan cukup yakin.\n\n"
-            f"Akurasi deteksi hanya {int(confidence * 100)}%.\n\n"
+            f"Nilai keyakinan hanya {int(confidence * 100)}%.\n\n"
             f"Silakan ambil foto ulang dengan pencahayaan yang lebih baik atau posisi obat lebih jelas."
         )
         return
@@ -379,7 +379,7 @@ def main() -> None:
         f'<div class="detected-medicine-name">{med_info["nama"]}</div>',
         unsafe_allow_html=True,
     )
-    st.caption(f"Akurasi deteksi: {int(confidence * 100)}%")
+    st.caption(f"Nilai Keyakinan: {int(confidence * 100)}%")
 
     if st.button("Dengarkan Informasi"):
         with st.spinner("Sedang menyiapkan suara..."):
