@@ -253,7 +253,7 @@ def main() -> None:
         """
         <div class="app-header">
             <div class="app-header-title">💊 MediScan</div>
-            <div class="app-header-subtitle">Kenali obat dari gambar dengan mudah.</div>
+            <div class="app-header-subtitle">Kenali obat dan lihat informasi penggunaannya dengan mudah.</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -262,17 +262,16 @@ def main() -> None:
     st.subheader("Input Gambar")
     input_method = st.radio(
         "Pilih Cara Memasukkan Gambar:",
-        ("Kamera", "Unggah"),
+        ("Kamera", "Unggah Gambar"),
         horizontal=True,
-        label_visibility="collapsed",
     )
 
     uploaded_image = None
     if "Kamera" in input_method:
-        uploaded_image = st.camera_input("Ambil foto obat")
+        uploaded_image = st.camera_input("Silakan hadapkan kamera ke obat Anda")
     else:
         uploaded_image = st.file_uploader(
-            "Unggah gambar obat",
+            "Pilih file gambar obat (JPG, JPEG, PNG):",
             type=["jpg", "jpeg", "png"],
         )
 
