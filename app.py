@@ -30,7 +30,7 @@ st.markdown(
     .app-header {
         background: linear-gradient(135deg, #2F80ED, #0056b3);
         border-radius: 12px;
-        padding: 30px;
+        padding: 16px 20px;
         text-align: center;
         margin-bottom: 20px;
         border: 1px solid #2F80ED;
@@ -249,25 +249,15 @@ def main() -> None:
         st.error("Model deteksi tidak ditemukan atau rusak.")
         return
 
-    if "started" not in st.session_state:
-        st.session_state.started = False
-
-    if not st.session_state.started:
-        st.markdown(
-            """
-            <div class="app-header">
-                <div class="app-header-title">💊 MediScan</div>
-                <div class="app-header-subtitle">Kenali obat dan lihat informasi penggunaannya dengan mudah.</div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-        left_col, center_col, right_col = st.columns([2, 1, 2])
-        with center_col:
-            if st.button("→", use_container_width=True):
-                st.session_state.started = True
-                st.rerun()
-        st.stop()
+    st.markdown(
+        """
+        <div class="app-header">
+            <div class="app-header-title">💊 MediScan</div>
+            <div class="app-header-subtitle">Kenali obat dan lihat informasi penggunaannya dengan mudah.</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
     st.subheader("Input Gambar")
     input_method = st.radio(
