@@ -19,7 +19,7 @@ st.markdown(
     <style>
     html, body, p, span, li, label {
         font-size: 20px !important;
-        color: #2F3747;
+        color: var(--text-color);
     }
     div.stButton > button {
         width: 100% !important;
@@ -77,7 +77,7 @@ st.markdown(
         font-size: 20px !important;
         font-weight: bold !important;
         margin-bottom: 12px;
-        color: #2F3747;
+        color: var(--text-color);
     }
     .detected-medicine-name {
         font-size: 36px !important;
@@ -89,6 +89,24 @@ st.markdown(
     @media (max-width: 600px) {
         .detected-medicine-name {
             font-size: 30px !important;
+        }
+    }
+    @media (prefers-color-scheme: dark) {
+        .card-blue {
+            background-color: #1e293b;
+            border-color: #334155;
+        }
+        .card-green {
+            background-color: #064e3b;
+            border-color: #047857;
+        }
+        .card-yellow {
+            background-color: #78350f;
+            border-color: #b45309;
+        }
+        .card-red {
+            background-color: #7f1d1d;
+            border-color: #b91c1c;
         }
     }
     </style>
@@ -118,7 +136,7 @@ def display_dosage(aturan: dict) -> None:
 
     content_html = ""
     if waktu:
-        content_html += f"<div style='background-color:#ffffff; border-left: 4px solid #2F80ED; padding: 10px; margin-bottom: 10px;'><b>Waktu Minum:</b> {waktu}</div>"
+        content_html += f"<div style='background-color: var(--background-color); border-left: 4px solid #2F80ED; padding: 10px; margin-bottom: 10px;'><b>Waktu Minum:</b> {waktu}</div>"
 
     if dosis:
         content_html += "<p><b>Dosis Pemakaian:</b></p><ul>"
@@ -206,7 +224,7 @@ def display_medicine_info(med_info: dict) -> None:
             med_info["ringkasan_layar"].get("pantangan_penting", [])
         )
         if pantangan:
-            pantangan_html = "".join([f"<div style='background-color:#ffffff; border-left: 4px solid #D9534F; padding: 10px; margin-bottom: 10px; color:#D9534F;'>{item}</div>" for item in pantangan])
+            pantangan_html = "".join([f"<div style='background-color: var(--background-color); border-left: 4px solid #D9534F; padding: 10px; margin-bottom: 10px; color:#D9534F;'>{item}</div>" for item in pantangan])
         else:
             pantangan_html = "<p>Informasi tidak tersedia.</p>"
         st.markdown(
