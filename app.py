@@ -79,16 +79,27 @@ st.markdown(
         margin-bottom: 12px;
         color: var(--text-color);
     }
+    .detection-title {
+        font-size: 34px !important;
+        font-weight: 800 !important;
+        line-height: 1.2 !important;
+        margin-top: 10px !important;
+        margin-bottom: 18px !important;
+        color: var(--text-color);
+    }
     .detected-medicine-name {
-        font-size: 36px !important;
+        font-size: 30px !important;
         font-weight: 800 !important;
         line-height: 1.2 !important;
         margin-bottom: 6px !important;
         color: #27AE60 !important;
     }
     @media (max-width: 600px) {
+        .detection-title {
+            font-size: 28px !important;
+        }
         .detected-medicine-name {
-            font-size: 30px !important;
+            font-size: 26px !important;
         }
     }
     @media (prefers-color-scheme: dark) {
@@ -337,11 +348,13 @@ def main() -> None:
         return
 
     st.divider()
-    st.subheader("Hasil Deteksi")
-    st.image(
-        detection_result["annotated_image"],
-        use_container_width=True,
-    )
+    st.markdown('<div class="detection-title">Hasil Deteksi</div>', unsafe_allow_html=True)
+    left_col, center_col, right_col = st.columns([1, 4, 1])
+    with center_col:
+        st.image(
+            detection_result["annotated_image"],
+            use_container_width=True,
+        )
 
     confidence = detection_result["confidence"]
     if confidence < CONFIDENCE_THRESHOLD:
