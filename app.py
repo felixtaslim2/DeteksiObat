@@ -296,7 +296,7 @@ def main() -> None:
         """
         <div class="app-header">
             <div class="app-header-title">💊 MediScan</div>
-            <div class="app-header-subtitle">Kenali obat dan lihat informasi penggunaannya dengan mudah.</div>
+            <div class="app-header-subtitle">Kenali obat dari kemasannya dan lihat informasinya dengan mudah</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -314,7 +314,7 @@ def main() -> None:
         uploaded_image = st.camera_input("Silakan arahkan kamera ke kemasan blister atau strip obat Anda")
     else:
         uploaded_image = st.file_uploader(
-            "Pilih file gambar obat (JPG, JPEG, PNG):",
+            "Pilih gambar blister atau strip obat (JPG, JPEG, PNG):",
             type=["jpg", "jpeg", "png"],
         )
 
