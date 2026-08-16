@@ -311,7 +311,7 @@ def main() -> None:
 
     uploaded_image = None
     if "Kamera" in input_method:
-        uploaded_image = st.camera_input("Silakan hadapkan kamera ke obat Anda")
+        uploaded_image = st.camera_input("Silakan arahkan kamera ke kemasan blister atau strip obat Anda")
     else:
         uploaded_image = st.file_uploader(
             "Pilih file gambar obat (JPG, JPEG, PNG):",
